@@ -1,9 +1,12 @@
 import { useState } from "react";
 
 export function useForm(steps) {
-    return(
-        <div>
-            
-        </div>
-    )
+
+    const [currentStep, setCurrentStep] = useState(0)
+    return {
+        currentStep,
+        currentComponent: steps[currentStep],
+
+    }
+
 }
