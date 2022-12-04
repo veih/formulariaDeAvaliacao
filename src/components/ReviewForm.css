@@ -1,0 +1,7 @@
+.form-control.score-container {
+    justify-content: center;
+}
+
+.form-control svg {
+    gap: 2rem;
+}
