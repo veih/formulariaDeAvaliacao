@@ -18,25 +18,19 @@ const ReviewForm = () => {
           <BsFillEmojiFrownFill />
           <p>Insastifeito</p>
         </label>
-      </div>
 
-      <div className="form-control score-container">
         <label className="radio-container">
           <input type="radio" value='neutral' name='review' required />
           <BsFillEmojiNeutralFill />
           <p>Poderia ser melhor</p>
         </label>
-      </div>
 
-      <div className="form-control score-container">
         <label className="radio-container">
           <input type="radio" value='satisfied' name='review' required />
           <BsFillEmojiSmileFill />
           <p>Satisfeito</p>
         </label>
-      </div>
 
-      <div className="form-control score-container">
         <label className="radio-container">
           <input type="radio" value='very_satisfied' name='review' required />
           <BsFillEmojiHeartEyesFill />
