@@ -5,7 +5,7 @@ const UserForm = ({data, upDataFieldHandler }) => {
     <div>
 
       <div className="form-control">
-        <label htmlfor='name'>Nome</label>
+        <label >Nome</label>
         <input
           type='text'
           name='name'
@@ -18,7 +18,7 @@ const UserForm = ({data, upDataFieldHandler }) => {
       </div>
 
       <div className="form-control">
-        <label htmlfor='name'>E-mail</label>
+        <label >E-mail</label>
         <input
           type='email'
           name='email'
